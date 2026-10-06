@@ -134,19 +134,33 @@ To verify all tools, file checks, Excel generation, and error handling independe
 
 ---
 
-## 4. Connecting to n8n (Optional)
+## 4. Testing the n8n Webhook Integration
 
-When you are ready to test the n8n webhook:
+You can test the n8n integration in two ways:
+
+### Option A: Using the Included n8n Mock Server (Instant, Zero Setup)
+We included a lightweight simulator `mock_n8n.py` that listens on port 5678:
+1. In a separate terminal, start the mock n8n server:
+   ```powershell
+   .\.venv\Scripts\python.exe mock_n8n.py
+   ```
+2. In your main terminal, run Agent01:
+   ```powershell
+   .\.venv\Scripts\python.exe agent.py 30
+   ```
+   You will see:
+   * **Step 4**: `trigger_n8n_webhook` returns `HTTP 200: Successfully triggered n8n webhook`.
+   * **mock_n8n terminal**: Prints the incoming payload and logs the downstream action!
+
+---
+
+### Option B: Using Real n8n
 1. Start your local n8n instance:
    ```bash
    npx n8n
    ```
-2. Create a new workflow in n8n:
+2. Create a workflow in n8n:
    * Add a **Webhook** node.
-   * Set HTTP Method to **POST**.
-   * Set Path to: `webhook/employee-threshold-reached`.
-3. In [`config.py`](config.py), the webhook URL is already configured:
-   ```python
-   N8N_WEBHOOK_URL = "http://localhost:5678/webhook/employee-threshold-reached"
-   ```
-4. Run `.\.venv\Scripts\python.exe agent.py 30`. When Agent01 triggers the webhook, your n8n workflow will execute immediately.
+   * Method: **POST**
+   * Path: `webhook/employee-threshold-reached`
+3. Run `.\.venv\Scripts\python.exe agent.py 30`. Agent01 will post directly to your real n8n workflow.
