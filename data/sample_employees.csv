@@ -1,0 +1,33 @@
+id,name,department,role,email,salary
+1,Alice Johnson,Engineering,Software Engineer,alice.johnson@example.com,85000
+2,Bob Smith,Engineering,DevOps Engineer,bob.smith@example.com,90000
+3,Charlie Brown,Human Resources,HR Specialist,charlie.brown@example.com,62000
+4,Diana Prince,Product,Product Manager,diana.prince@example.com,105000
+5,Edward Norton,Engineering,Frontend Developer,edward.norton@example.com,80000
+6,Fiona Gallagher,Marketing,Marketing Coordinator,fiona.gallagher@example.com,58000
+7,George Clark,Finance,Financial Analyst,george.clark@example.com,75000
+8,Hannah Abbott,Sales,Account Executive,hannah.abbott@example.com,70000
+9,Ian Malcolm,Data,Data Scientist,ian.malcolm@example.com,110000
+10,Julia Roberts,Engineering,Backend Developer,julia.roberts@example.com,88000
+11,Kevin Bacon,Human Resources,Recruiter,kevin.bacon@example.com,60000
+12,Laura Croft,Operations,Operations Manager,laura.croft@example.com,95000
+13,Michael Scott,Sales,Regional Manager,michael.scott@example.com,82000
+14,Nancy Wheeler,Product,UX Designer,nancy.wheeler@example.com,78000
+15,Oscar Martinez,Finance,Senior Accountant,oscar.martinez@example.com,82000
+16,Pam Beesly,Operations,Office Administrator,pam.beesly@example.com,55000
+17,Quentin Tarantino,Marketing,Creative Director,quentin.tarantino@example.com,115000
+18,Rachel Green,Sales,Sales Representative,rachel.green@example.com,65000
+19,Steve Rogers,Security,Security Lead,steve.rogers@example.com,100000
+20,Tony Stark,Engineering,Principal Architect,tony.stark@example.com,150000
+21,Uma Thurman,Legal,Legal Counsel,uma.thurman@example.com,125000
+22,Victor Stone,Engineering,Systems Engineer,victor.stone@example.com,92000
+23,Wanda Maximoff,Data,Data Analyst,wanda.maximoff@example.com,76000
+24,Xander Cage,Operations,Logistics Coordinator,xander.cage@example.com,59000
+25,Ygritte Snow,Marketing,Content Specialist,ygritte.snow@example.com,61000
+26,Zachary Levi,Sales,Business Development,zachary.levi@example.com,68000
+27,Arthur Dent,Support,Customer Support Specialist,arthur.dent@example.com,52000
+28,Bruce Wayne,Executive,Managing Director,bruce.wayne@example.com,180000
+29,Clark Kent,Communications,PR Manager,clark.kent@example.com,74000
+30,Donna Noble,Support,Support Lead,donna.noble@example.com,67000
+31,Elliot Alderson,Security,Cybersecurity Analyst,elliot.alderson@example.com,98000
+32,Freya Allan,Human Resources,HR Assistant,freya.allan@example.com,50000

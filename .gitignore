@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output artifacts
+output/*.xlsx
+output/*.csv
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+.DS_Store
